@@ -1,0 +1,29 @@
+version: '3'
+services:
+  php:
+    build: ./php/
+    image: ocm-signup-php:v0.0.1
+    volumes:
+      - ./php/log:/var/log/php_log
+      - ./code:/var/www/html
+    links:
+      - redis
+    restart: always
+  nginx:
+    build: ./nginx/
+    image: ocm-signup-nginx:v0.0.1
+    volumes:
+      - ./nginx/conf.d:/etc/nginx/conf.d
+      - ./nginx/log:/var/log/nginx
+      - ./code:/var/www/html
+    links:
+      - php
+    ports:
+      - 9999:80
+    restart: always
+  redis:
+    image: ocm-signup-redis:v0.0.1
+    build: ./redis/
+    ports:
+      - 6666:6379
+    restart: always
