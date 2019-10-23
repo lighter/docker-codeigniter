@@ -1,5 +1,0 @@
-172.29.0.1 - - [22/Oct/2019:10:19:33 +0000] "GET / HTTP/1.1" 200 10255 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36"
-172.29.0.1 - - [22/Oct/2019:10:19:33 +0000] "GET /robots.txt HTTP/1.1" 200 10255 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36"
-172.29.0.1 - - [22/Oct/2019:10:19:50 +0000] "GET /index.php HTTP/1.1" 200 10255 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36"
-172.29.0.1 - - [22/Oct/2019:10:24:47 +0000] "GET /welcome HTTP/1.1" 200 10255 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36"
-172.29.0.1 - - [22/Oct/2019:10:26:31 +0000] "GET /index.php/welcome HTTP/1.1" 200 10255 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36"
